@@ -10,7 +10,8 @@
     "email": "jerome.etienne@gmaill.com",
     "url": "http://jetienne.com"
   },
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "main" : "voxel-items.js",
   "devDependencies": {
     "painterly-textures": "0.0.3",
     "voxel-hello-world": "0.1.1",
