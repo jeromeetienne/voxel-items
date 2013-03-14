@@ -40,3 +40,19 @@ MIT
 ## TODO
 * make alias for each items
   * ```.createMesh('brown-helmet')``` === ```.createMesh(0,0)``` 
+  
+## usefull command lines
+
+* ```npm install``` to install dev dependancy
+* ```npm publish``` to publish the package in npm repo
+* ```npm start``` to get a live server of the demo
+* to publish on gh-pages
+
+```
+git checkout gh-pages
+git merge master
+npm install
+git add -f node_modules
+git push 
+git checkout master
+```
