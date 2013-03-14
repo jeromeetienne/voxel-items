@@ -59,7 +59,6 @@ npm start
 ``` 
 
 * to publish on gh-pages
-
 ```
   # go on gh-pages branch
   git checkout gh-pages
