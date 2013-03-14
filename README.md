@@ -41,18 +41,37 @@ MIT
 * make alias for each items
   * ```.createMesh('brown-helmet')``` === ```.createMesh(0,0)``` 
   
-## usefull command lines
+## Usefull Command Lines
 
-* ```npm install``` to install dev dependancy
-* ```npm publish``` to publish the package in npm repo
-* ```npm start``` to get a live server of the demo
+* to install dev dependancy
+```
+npm install
+```
+
+* to publish the package in npm repo
+```
+npm publish
+```
+
+* to get a live server of the demo
+
+```
+npm start
+``` 
+
 * to publish on gh-pages
 
 ```
+# go on gh-pages branch
 git checkout gh-pages
+# merge master branch
 git merge master
+# install all dependancies (if not already done)
 npm install
+# force to add them (they are in .gitignore)
 git add -f node_modules
+# push it to github
 git push 
+# come back on master branch
 git checkout master
 ```
