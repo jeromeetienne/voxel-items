@@ -4,16 +4,8 @@
 var textures	= require('painterly-textures')(__dirname)
 var game	= require('voxel-hello-world')({
 	texturePath	: textures,
-//	chunkDistance	: 1
 })
 
-// make a tower appear after 5 seconds at the players position
-// setTimeout(function() {
-// 	tower.place(game.controls.target().avatar.position)
-// }, 5000)
-
-
-window.game	= game;
 
 // init a tquery world
 var world	= require('./src/voxel-tquery').initWorld(game);
@@ -27,18 +19,9 @@ items.addEventListener('load', function(){
 			if( !item )	continue
 			item.addTo(world)
 				.positionX(   x - 8)
-				.positionY(16-y + 2)
-				.positionZ(2)
+				.positionY(16-y + 3)
+				.positionZ(1)
 		}
 	}
 })
-window.game	= game
 
-
-setInterval(function() {
-	var position	= game.controls.target().avatar.position;
-	var item	= items.createMesh(0,0).addTo(world)
-	item.position(position)
-		.translateY(0.5)
-		.rotationY(Math.random() * Math.PI*2)
-}, 1000)

@@ -36,3 +36,7 @@ get the item which is at x, y in the spritesheet and create a 3d mesh with it
 ## license
 
 MIT
+
+## TODO
+* make alias for each items
+  * ```.createMesh('brown-helmet')``` === ```.createMesh(0,0)``` 
