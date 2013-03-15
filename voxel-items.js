@@ -11,7 +11,7 @@ module.exports = function(opts) {
 	return new tQuery.Spritesheet(opts)
 }
 
-require('./src/tquery.spritesheet.js')
+require('./vendor/tquery.spritesheet.js')
 
 // expose the Items constructor so that it is available
 // in case someone wants to access the .prototype methods, etc
