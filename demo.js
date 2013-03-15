@@ -8,7 +8,7 @@ var game	= require('voxel-hello-world')({
 
 
 // init a tquery world
-var world	= require('./voxel-tquery/voxel-tquery').initWorld(game);
+var world	= require('voxel-tquery').initWorld(game);
 // init the items
 var items	= require('./voxel-items')();
 items.addEventListener('load', function(){

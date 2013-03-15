@@ -16,7 +16,8 @@
     "painterly-textures": "0.0.3",
     "voxel-hello-world": "0.1.1",
     "browservefy": "0.0.9",
-    "browserify": "~2.5.1"
+    "browserify": "~2.5.1",
+    "voxel-tquery": "0.0.0"
   },
   "scripts": {
     "start": "browservefy demo.js:bundle.js -- --fast"
